@@ -4,7 +4,7 @@ from crontab import CronTab
 cron = CronTab(user=True)
 
 # Crear nueva tarea
-job = cron.new(command='export DISPLAY=:0 && export XDG_RUNTIME_DIR=/run/user/1000 && dunstify -u critical --icon="info" --appname="Nombre del proceso" "Título" "Mensaje"')
+job = cron.new(command='export DISPLAY=:0 && export XDG_RUNTIME_DIR=/run/user/1000 && dunstify -u critical --icon="info" --appname="Nombre del proceso" "cap mare" "safaaaaaa"')
 
 # Configurar para que se ejecute cada minuto
 job.minute.on(45)
